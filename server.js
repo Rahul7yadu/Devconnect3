@@ -6,7 +6,7 @@ const path = require('path')
 const app = express();
 console.log(typeof(app))
 app.use(cors({origin:'*'}))
-connectDb()
+ connectDb()
 
 
 
