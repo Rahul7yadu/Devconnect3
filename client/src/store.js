@@ -1,11 +1,6 @@
-<<<<<<< HEAD
-import { configureStore} from "@reduxjs/toolkit";
-=======
-
 import { configureStore} from "@reduxjs/toolkit";
 
 
->>>>>>> c7a8e8f6e0cb9de122945f4822cf015d2f5da920
 import {alertSlice,authSlice,profileSlice,postSlice} from "./reducers/index";
 
 // const initialState = {};

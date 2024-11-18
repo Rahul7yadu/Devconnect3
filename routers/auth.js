@@ -32,7 +32,6 @@ if(!isMatch){
     jwt.sign(payload,process.env.jwtSecret,{expiresIn:36000},(err,token)=>{
         if(err) throw err
         res.json({token})
-
     })
 }catch(err){
     res.status(401).send({error:['invalid credentials']})
